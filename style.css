@@ -1,5 +1,6 @@
 body{
 	font-family: 'Cairo', sans-serif;
+	font-size:1.1rem;
 }
 
 /* HEADER */
@@ -9,4 +10,13 @@ body{
 
 nav{
 	background: #F8B133;
+}
+
+.menu-item a{
+	color:#fff!important;
+	text-decoration: none!important;
+	transition: all .2s;
+}
+.menu-item a:hover{
+	color:#424242!important;
 }

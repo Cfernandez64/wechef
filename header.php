@@ -41,7 +41,7 @@
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
 						'menu_id'        => 'primary-menu',
-						'menu_class'		 => 'nav justify-content-center p-2 text-uppercase text-center'
+						'menu_class'		 => 'nav justify-content-center p-1 text-uppercase text-center'
 					) );
 					?>
 				</nav><!-- #site-navigation -->
