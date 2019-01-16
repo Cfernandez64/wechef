@@ -1,6 +1,7 @@
 body{
 	font-family: 'Cairo', sans-serif;
 	font-size:1.1rem;
+	letter-spacing: 0.05em;
 }
 
 /* HEADER */
@@ -9,14 +10,18 @@ body{
 }
 
 nav{
-	background: #F8B133;
+	background: #fff;
+	border-top-color:#424242;
+	border-top-style:double;
+	border-bottom-color:#424242;
+	border-bottom-style:double;
 }
 
 .menu-item a{
-	color:#fff!important;
+	color:#424242!important;
 	text-decoration: none!important;
 	transition: all .2s;
 }
 .menu-item a:hover{
-	color:#424242!important;
+	color:#111!important;
 }
