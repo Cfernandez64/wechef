@@ -14,18 +14,14 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'wechef' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'wechef' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'wechef' ), 'wechef', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+		<div class="container  p-2">
+			<div class="col-12 col-md-6">
+				<h3>We Chef !</h3>
+				<p>We Chef ! c’est une équipe de travailleurs handicapés motivés par le projet de se former aux métiers de cuisiniers et de pâtissiers. Encadrés par une équipe de professionnels de la restauration, ils ont aujourd’hui développé un savoir-faire de Chefs.</p>
+			</div>
+		</div>
+		<div class="socket text-center p-1">
+				Copyright : We Chef !
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
