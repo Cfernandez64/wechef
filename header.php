@@ -25,7 +25,9 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'wechef' ); ?></a>
-
+	<div id="upper" class="container-fluid p-1">
+		contact
+	</div>
 	<header id="masthead" class="container-fluid">
 		<div class="container">
 			<div class="row justify-content-between">
