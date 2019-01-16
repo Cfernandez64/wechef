@@ -122,6 +122,8 @@ add_action( 'widgets_init', 'wechef_widgets_init' );
 function wechef_scripts() {
 	wp_enqueue_style( 'wechef-style', get_stylesheet_uri() );
 
+	wp_enqueue_script('jquery');
+
 	wp_enqueue_script( 'wechef-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'wechef-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -158,4 +160,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
